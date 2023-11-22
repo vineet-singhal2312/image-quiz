@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #1abc9c;
+
+  --secondaryColor: #ecf0f1;
+  --thirdColor: #34495e;
+
+  --textColor: grey;
+  --highlighter: #03e9f4;
+}
+
+.link {
+  text-decoration: none;
+}

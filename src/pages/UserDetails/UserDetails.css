@@ -1,0 +1,117 @@
+.user-details {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primaryColor);
+}
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.user-details-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.user-details-box h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.user-details-box p {
+  margin: 0 0 20px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.user-details-box .user-box {
+  position: relative;
+}
+
+.user-details-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.user-details-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-details-box .user-box input:focus ~ label,
+.user-details-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: var(--highlighter);
+  font-size: 12px;
+}
+.submit-button-bt {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+#submit-button-bt {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--highlighter);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  margin: 1rem 0.5rem;
+  letter-spacing: 4px;
+  border: 1px solid var(--highlighter);
+}
+
+#submit-button-bt:hover {
+  background: var(--highlighter);
+  color: black;
+  border-radius: 5px;
+}
+
+#submit-button-bt span {
+  position: absolute;
+  display: block;
+}
+
+@media only screen and (max-width: 500px) {
+  .user-details-box {
+    width: 275px;
+  }
+}

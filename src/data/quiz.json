@@ -1,0 +1,72 @@
+[
+    {
+      "wrongOption": "/1-fake.png",
+      "question": "Which Image is the correct image of the website ?",
+      "plusPoint": 1,
+      "negativePoint": 0,
+      "rightOption": "/1-correct.png"
+    },
+    {
+        "wrongOption": "/2-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/2-correct.png"
+    },
+    {
+        "wrongOption": "/3-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/3-correct.png"
+    },
+    {
+        "wrongOption": "/4-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/4-correct.png"
+    },
+    {
+        "wrongOption": "/5-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/5-correct.png"
+    },
+    {
+        "wrongOption": "/6-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/6-correct.png"
+    },
+    {
+        "wrongOption": "/7-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/7-correct.png"
+    },
+    {
+        "wrongOption": "/8-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/8-correct.png"
+    },
+    {
+        "wrongOption": "/9-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/9-correct.png"
+    },
+    {
+        "wrongOption": "/10-fake.png",
+        "question": "Which Image is the correct image of the website ?",
+        "plusPoint": 1,
+        "negativePoint": 0,
+        "rightOption": "/10-correct.png"
+    }
+  ]

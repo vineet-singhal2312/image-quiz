@@ -1,0 +1,99 @@
+.question-card {
+  width: 90%;
+  height: 440px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondaryColor);
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 8px;
+}
+
+.question {
+  width: 90%;
+  text-align: initial;
+  padding: 1rem;
+  margin-left: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.options {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  text-align: initial;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1rem; */
+  box-sizing: border-box;
+  /* margin: 0rem 1rem; */
+  margin-right: 0.5rem;
+}
+
+.option {
+  width: 45%;
+  height: 70%;
+  text-align: initial;
+  padding: 0.25rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-img {
+  width: 98%;
+  height: 98%;
+  aspect-ratio: 16/9;
+  border-radius: 4px;
+}
+
+.right {
+  color: var(--textColor);
+  background: rgba(128, 240, 8, 0.986);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.wrong {
+  color: var(--textColor);
+
+  background: rgba(255, 7, 7, 0.884);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media only screen and (max-width: 500px) {
+  .question-card {
+    height: 90%;
+    font-size: 0.9rem;
+  }
+
+  .options {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+
+  .option {
+    width: 80%;
+  }
+}
